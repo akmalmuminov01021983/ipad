@@ -1,0 +1,464 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    letter-spacing: none;
+    
+}
+
+
+/*---------------------------------------header--------------------------------------------------------------*/
+
+header .bg-light {
+    background-color: #f8f9fa00 !important;
+}
+
+header{
+    position: relative;
+}
+
+
+@media(max-width:366px){
+    headder .menu_top img{
+        margin-left: 0;
+    }
+    
+}
+
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #323332;
+    font-size: 23px;
+    font-weight: 400;
+    padding-right: 20px;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover{
+    background: #373737;
+    font-size: 23px;
+    font-weight: 400;
+    color: white;
+    padding: 10px 20px 10px  20px;
+}
+
+header .menu_top{
+    padding: 25px 0 25px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.box{
+    height: 1px;
+    width: 100%;
+    background: #a7a5a5;
+    position: absolute;
+    top: 120px;
+  
+}
+
+/*-----------------------------------------main--------------------------------------------------------------*/
+
+main{
+ 
+    padding-bottom: 65px;
+
+}
+
+main .container .main_text{
+    margin-top:200px;
+}
+
+@media(max-width:767px){
+    main .container .main_text{
+        text-align: center
+    }
+    
+}
+
+@media(max-width:767px){
+    main .container .main_text button{
+    margin-left: 100px;
+
+    }
+    
+}
+
+@media(max-width:3px){
+    main .container .main_text button{
+    margin-left: 165px;
+
+    }
+    
+}
+
+@media(max-width:767px){
+    main .container .main_img img{
+    margin-top: 50px;
+
+    }
+    
+}
+
+
+main .container .main_text h1{
+    font-size: 61px;
+    font-weight: 200;
+    color: #5d5d5d;
+}
+
+main .main_img img{
+    width: 100%;
+    margin-top:200px;
+}
+
+
+main .container .main_text  h1 span{
+    font-size: 47px;
+    font-weight: 200;
+    color: #5d5d5d;
+    
+}
+
+main .main_text button{
+    display: flex;
+    background: #373737;
+    border: none;
+    padding-left: 12px;
+    padding-right: 16px;
+    padding-top: 13px;
+    color: white;
+    margin-top: 25px;    
+}
+
+main .main_text button img{
+    padding-top: 6px;
+    padding-right: 10px;
+  
+}
+
+@media(max-width:991px){
+    .ml-auto, .mx-auto {
+       background: rgb(6, 228, 228);
+       border: 1px red solid;
+       border-radius: 7px;
+       text-align: center;
+    }
+
+    .ml-auto, .mx-auto:hover{
+     box-shadow: 5px 10px 20px black;
+     }
+}
+
+
+
+/*---------------------------------------------section--------------------------------------------------------*/
+
+section .ipad .block_img{
+    background: #d5d5d5;
+    width: 310px;
+    height: 240px;
+    padding-top: 71px;
+    padding-left: 41px;
+}
+
+
+
+section .ipad .block_img img {
+    padding-right: 14px;
+}
+
+
+
+section .ipad .block_text{
+    margin-left: 20px;
+}
+
+section .ipad .block_text h2{
+    font-size: 30px;
+    font-weight: 200;
+    color: #696161;
+    
+}
+section .ipad .block_text p{
+     font-size: 12px;
+     font-weight: 400;
+     color: #848484;
+     
+}
+
+section .ipad .block_text .block_icon{
+    padding-left: 225px;
+}
+
+section .ipad .block_1 h3{
+    font-size: 30px;
+    font-weight: 200;
+    color: #696161;
+    
+}
+section .ipad .block_1 p{
+     font-size: 14px;
+     font-weight: 300;
+     color: #848484;
+     
+}
+
+section .ipad .block_1 {
+    margin-top: 50px;
+    
+
+}
+
+/*-----------------------------------------------block_apple-------------------------------------------*/
+
+section .iphone .block_apple {
+    border: 1px solid #e1dddd;
+    width: 320px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+section .iphone .block_apple img{
+    width: 100%;
+}
+
+
+section .iphone .block_apple  p{
+    font-size: 21px;
+    color: #9ba08d;
+    font-weight: 400;
+
+}
+
+section .iphone .block_apple  p span{
+    font-size:30px;
+    color: #b8dc58;
+    font-weight: 700;
+}
+
+/*------------------------------------------block_weeks-------------------------------------------------*/
+
+section .iphone .block_weeks{
+    max-width: 315px;
+    background: #86e7f0;
+    margin-top: 50px;
+   position: relative;
+   height: 250px;
+  width: 100%;
+}
+
+@media(max-width: 1199px){
+    section .iphone .block_weeks{
+     display: none;
+    }
+     
+}
+
+section .iphone .block_weeks .box_1{
+    height: 120px;
+    width: 120px;
+    background: #ef809f;
+    position: absolute;
+    border-radius: 50%;
+    border: white 4px solid;
+    text-align: center;
+    top: -25px;
+    left: 60px;
+
+    
+}
+
+
+section .iphone .block_weeks .box_1 p{
+    font-size: 21px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+section .iphone .block_weeks .box_1 p span{
+    font-size:45px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+section .iphone .block_weeks  .yes{
+    font-size:35px;
+    color: white;
+    font-weight: 600;
+    top: 85px;
+    left: 25px;
+    position: absolute;
+    width: 100%;
+    
+}
+
+section .iphone .block_weeks  .no{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    top: 135px;
+    left: 33px;
+    position: absolute;
+    width: 100%; 
+}
+
+
+section .iphone .block_weeks  .no span{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    top: 23px;
+    left: 65px;
+    position: absolute;
+    width: 100%;
+}
+
+
+section .iphone .block_weeks button{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    top: 195px;
+    left:60px;
+    position: absolute;
+    background: #58d1dc;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+/*--------------------------------------block_input-----------------------------------------------*/
+
+.block_input{
+    background: #393a39;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+.block_input h3{
+    font-size: 27px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+
+.block_input p{
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+    padding-top: 15px;
+    
+}
+
+.block_input form{
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+.block_input form .input_type_1{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+}
+
+
+.block_input form .input_type{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    margin-top: 5px;
+    border: none;
+}
+
+
+
+.block_input form button{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    background: #bb4465;
+    border: none;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+
+.block_input_1{
+    height: 6px;
+    background: #bb4465;
+
+}
+
+@media(max-width:991px){
+    .block_input form .input_type{
+        width: 75px;
+    }
+    .block_input form .input_type_1{
+        width: 75px;
+    }
+}
+
+@media(max-width:767px){
+    .block_input form .input_type{
+        width: 100%;
+    }
+    .block_input form .input_type_1{
+        width: 100%;
+       
+    }
+}
+
+/*---------------------------------------------FOOTER-------------------------------------------*/
+
+footer{
+    background:#323332;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    text-align: center;
+    margin-top: 55px;
+    width: 100%;
+}
+
+
+footer .footer_text p a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer .footer_icon_icon_1 {
+   font-size: 40px;
+   width: 40px;
+   height: 40px;
+   display: flex;
+  margin-right: 20px;
+ 
+}
+
+
+footer .footer_icon{
+    display: flex;
+    margin-right: 20px;
+}
